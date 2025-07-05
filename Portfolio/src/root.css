@@ -1,11 +1,11 @@
 :root {
-    --body-main-background: #f0f0f0;
+    --body-main-background: #fafafa;
     --body-sub-background: #dddddd;
     --body-nav-background: #FFFFFF;
 
     --body-text-main-color: #232833;
     --body-text-sub-color: #7D7C81;
-    --body-text-hover-color: #c9dafd;
+    --body-text-hover-color: #e9f1ff;
 
     --body-selection-color: #2328333b;
 }
@@ -13,7 +13,7 @@
 [data-theme="dark"] {
     --body-main-background: #1C1C1C;
     --body-sub-background: #242424;
-    --body-nav-background: #111111;
+    --body-nav-background: #1a1a1a;
 
     --body-text-main-color: #DFD7AF;
     --body-text-sub-color: #444444;

@@ -5,7 +5,7 @@ const Rootlayout = () => {
   return (
     <>
       <Navbar />
-      {/* <div className='layout-overlap'></div> */}
+      <div style={{ height: '70px' }}></div>
       <Outlet />
     </>
   )
