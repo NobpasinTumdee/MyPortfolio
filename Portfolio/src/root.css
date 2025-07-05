@@ -1,0 +1,40 @@
+:root {
+    --body-main-background: #f0f0f0;
+    --body-sub-background: #dddddd;
+    --body-nav-background: #FFFFFF;
+
+    --body-text-main-color: #232833;
+    --body-text-sub-color: #7D7C81;
+    --body-text-hover-color: #c9dafd;
+
+    --body-selection-color: #2328333b;
+}
+
+[data-theme="dark"] {
+    --body-main-background: #1C1C1C;
+    --body-sub-background: #242424;
+    --body-nav-background: #111111;
+
+    --body-text-main-color: #DFD7AF;
+    --body-text-sub-color: #444444;
+    --body-text-hover-color: #1C1C1C;
+
+    --body-selection-color: #dfd7af5b;
+}
+
+*::selection {
+    background-color: var(--body-selection-color);
+}
+
+body{
+    margin: 0;
+    background-color: var(--body-main-background);
+    color: var(--body-text-main-color);
+    font-family: "Ubuntu", sans-serif;
+}
+
+/* @media screen and (max-width: 450px) {
+    .main {
+        display: inline;
+    }
+} */

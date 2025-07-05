@@ -7,6 +7,7 @@ import Experience from './Page/Experience';
 import Skill from './Page/Skill';
 import Contact from './Page/Contact';
 import Rootlayout from './Layout/Rootlayout';
+import './root.css'
 
 const router = createBrowserRouter([
   {
