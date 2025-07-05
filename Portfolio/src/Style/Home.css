@@ -1,0 +1,110 @@
+.main-home {
+    display: flex;
+    justify-content: center;
+    margin: 5% 15%;
+    font-weight: 500;
+}
+
+.main-home-righ {
+    text-wrap: revert-layer;
+    width: 50%;
+}
+
+.main-home-left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.rainbow-text {
+    background: linear-gradient(to right,
+            #4F82EE, #AF6DAC, #D76674);
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: rainbow-animation 10s linear infinite;
+    font-weight: 600;
+}
+
+@keyframes rainbow-animation {
+    0% {
+        background-position: 0% center;
+    }
+
+    100% {
+        background-position: -200% center;
+    }
+}
+
+.font-explan {
+    font-family: "Mitr", sans-serif;
+}
+
+.social-media {
+    display: flex;
+    gap: 5px;
+    font-weight: 600;
+}
+
+.Explore-cv {
+    display: flex;
+    gap: 20px;
+}
+
+.Explore {
+    background-color: var(--body-text-main-color);
+    padding: 1rem;
+    color: var(--body-text-hover-color);
+    border-radius: 10px;
+    border: 3px solid var(--body-text-main-color);
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+
+.CV {
+    background-color: var(--body-main-background);
+    padding: 1rem;
+    color: var(--body-text-main-color);
+    border-radius: 10px;
+    border: 3px solid var(--body-text-main-color);
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+
+.Quick-stats {
+    display: flex;
+    align-items: center;
+    background-color: var(--body-text-main-color);
+    border-radius: 30px;
+    color: var(--body-text-hover-color);
+    font-size: 0.7rem;
+    text-align: center;
+    align-items: center;
+    padding: 0.5rem 0.5rem;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    width: 5rem;
+    cursor: pointer;
+}
+
+.profile {
+    width: 60%;
+    height: auto;
+    border-radius: 50%;
+    border: 10px solid var(--body-nav-background);
+    box-shadow: #7d7c8188 0px 20px 90px;
+    animation: pop 10s ease-in-out infinite;
+    pointer-events: none;
+    scale: 1.2;
+}
+
+@keyframes pop {
+    25% {
+        transform: translateY(-5%);
+    }
+
+    75% {
+        transform: translateY(5%);
+    }
+}
