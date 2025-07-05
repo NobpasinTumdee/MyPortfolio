@@ -10,10 +10,10 @@
     border: 4px solid var(--body-nav-background);
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
     border-radius: 15px;
-    animation: pop 10s ease-in-out infinite;
+    animation: pop1 10s ease-in-out infinite;
 }
 
-@keyframes pop {
+@keyframes pop1 {
     25% {
         rotate: -4deg;
     }

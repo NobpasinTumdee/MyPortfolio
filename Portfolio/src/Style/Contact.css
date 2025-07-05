@@ -1,0 +1,63 @@
+.contact-button {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-button-sub {
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 10px;
+    background-color: var(--body-main-background);
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.contact-button-sub:hover {
+    background-color: var(--body-text-main-color);
+    color: var(--body-text-hover-color);
+}
+
+.contact-button-sub.active {
+    background-color: var(--body-text-main-color);
+    color: var(--body-text-hover-color);
+}
+
+.logo-contact {
+    background-color: var(--body-text-main-color);
+    border-radius: 10px;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.contact-main {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 30px 0 0;
+}
+
+.contact-sub {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+    padding: 0 1rem;
+    border-radius: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+
+.support {
+    text-align: center;
+    margin: 3% 0;
+}
+
+.PromptPay {
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+    width: 400px;
+    border-radius: 20px;
+}
