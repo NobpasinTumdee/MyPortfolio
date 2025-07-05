@@ -26,7 +26,12 @@
     background-color: var(--body-selection-color);
 }
 
-body{
+*::-webkit-scrollbar {
+    display: none;
+    /* For Chrome, Safari, and Opera */
+}
+
+body {
     margin: 0;
     background-color: var(--body-main-background);
     color: var(--body-text-main-color);
