@@ -3,6 +3,7 @@ import '../Style/Home.css'
 import me from '../assets/me.png';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
   useEffect(() => {
@@ -27,7 +28,7 @@ const Home = () => {
             <p>ig</p>
           </div>
           <div className='Explore-cv' data-aos="fade-down" data-aos-duration="1000">
-            <p className='Explore'>Explore My Project</p>
+            <p className='Explore'><Link to={'projects'} style={{textDecoration: 'none',color:'var(--body-text-hover-color)'}}>Explore My Project</Link></p>
             <p className='CV'>Download My CV</p>
           </div>
           <h3 data-aos="fade-down">Quick Stats:</h3>

@@ -6,6 +6,7 @@
 
 .picture {
     max-width: 400px;
+    max-height: 450px;
     width: 50%;
     border: 4px solid var(--body-nav-background);
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
@@ -35,4 +36,10 @@
 
 .personal-info {
     width: 50%;
+}
+
+.about-info {
+    font-family: "Mitr", sans-serif;
+    overflow-y: scroll;
+    max-height: 200px;
 }

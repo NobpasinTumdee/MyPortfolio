@@ -26,7 +26,7 @@ const Contact = () => {
       {isActive ? (
         <div style={{margin:'0 0 10%'}}>
           <div className='contact-main' data-aos="fade-right" data-aos-duration="1000">
-            <div className='contact-sub'>
+            <a href='https://github.com/NobpasinTumdee' className='contact-sub'>
               <div style={{display:'flex',alignItems:'center'}}>
                 <p className='logo-contact'>🌞</p>
                 <div>
@@ -35,7 +35,7 @@ const Contact = () => {
                 </div>
               </div>
               <p>▶</p>
-            </div>
+            </a>
           </div>
           <div className='contact-main' data-aos="fade-left" data-aos-duration="1200">
             <div className='contact-sub'>

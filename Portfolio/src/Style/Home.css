@@ -94,12 +94,12 @@
     border-radius: 50%;
     border: 10px solid var(--body-nav-background);
     box-shadow: #7d7c8188 0px 20px 90px;
-    animation: pop 10s ease-in-out infinite;
+    animation: popprofile 10s ease-in-out infinite;
     pointer-events: none;
     scale: 1.2;
 }
 
-@keyframes pop {
+@keyframes popprofile {
     25% {
         transform: translateY(-5%);
     }
