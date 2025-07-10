@@ -1,0 +1,24 @@
+.skill-frontend {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin: 40px 25%;
+    gap: 20px;
+}
+
+.Logo-img-group {
+    text-align: center;
+    padding: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+}
+
+
+.Logo-img-group:hover {
+    scale: 1.1;
+}
+
+.Logo-img {
+    width: 60px;
+    max-height: 100px;
+}

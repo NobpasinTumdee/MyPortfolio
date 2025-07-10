@@ -4,6 +4,8 @@ import Aos from 'aos';
 import 'aos/dist/aos.css';
 import '../Style/Nav.css'
 
+import code from '../assets/code.png';
+
 //theme web
 const setDarkMode = () => {
     document.querySelector("body")?.setAttribute("data-theme", "dark");
@@ -36,14 +38,17 @@ const Navbar = () => {
     return (
         <>
             <div className='main-nav'>
-                <h2 className='logo-text' data-aos="fade-right">My Portofolio</h2>
+                <div style={{ display: 'flex', alignItems: 'center' }}>
+                    <img src={code} width={30} alt="" />
+                    <h2 className='logo-text' data-aos="fade-right"> My Portofolio</h2>
+                </div>
                 <div className='nav-menu'>
-                    <Link  to="/" className={`Link-button ${isActive('/') ? 'active' : ''}`}> Home </Link>
-                    <Link  to="about" className={`Link-button ${isActive('/about') ? 'active' : ''}`}> About </Link>
-                    <Link  to="projects" className={`Link-button ${isActive('/projects') ? 'active' : ''}`}> Projects </Link>
-                    <Link  to="experience" className={`Link-button ${isActive('/experience') ? 'active' : ''}`}> Experience </Link>
-                    <Link  to="skill" className={`Link-button ${isActive('/skill') ? 'active' : ''}`}> Skill </Link>
-                    <Link  to="contact" className={`Link-button ${isActive('/contact') ? 'active' : ''}`}> Contact </Link>
+                    <Link to="/" className={`Link-button ${isActive('/') ? 'active' : ''}`}> Home </Link>
+                    <Link to="about" className={`Link-button ${isActive('/about') ? 'active' : ''}`}> About </Link>
+                    <Link to="projects" className={`Link-button ${isActive('/projects') ? 'active' : ''}`}> Projects </Link>
+                    <Link to="experience" className={`Link-button ${isActive('/experience') ? 'active' : ''}`}> Experience </Link>
+                    <Link to="skill" className={`Link-button ${isActive('/skill') ? 'active' : ''}`}> Skill </Link>
+                    <Link to="contact" className={`Link-button ${isActive('/contact') ? 'active' : ''}`}> Contact </Link>
                     <div className="theme-toggle-wrapper">
                         <label className="toggle-switch">
                             {/* // checkbox for theme web */}
