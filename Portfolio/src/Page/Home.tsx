@@ -32,7 +32,7 @@ const Home = () => {
           </div>
           <div className='Explore-cv' data-aos="fade-down" data-aos-duration="1000">
             <p className='Explore'><Link to={'projects'} style={{ textDecoration: 'none', color: 'var(--body-text-hover-color)' }}>Explore My Project</Link></p>
-            <a href={MyCV} download='CV_Nobpasin.pdf' style={{textDecoration:'none'}}>
+            <a href={MyCV} download='CV_Nobpasin.pdf' style={{ textDecoration: 'none' }}>
               <p className='CV'>Download My CV</p>
             </a>
           </div>
