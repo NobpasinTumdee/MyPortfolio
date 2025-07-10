@@ -51,7 +51,7 @@ const Experience = () => {
               <div data-aos="zoom-in-up">
                 <h1>A capstone project on Honeypot Systems</h1>
                 <h3>Frontend Backend Cybersecurity</h3>
-                <p>▪️ designed to detect malicious activity against decoy systems, visualize the data through a dashboard, and provide an integrated AI chatbot for interaction.</p>
+                <p>▪ designed to detect malicious activity against decoy systems, visualize the data through a dashboard, and provide an integrated AI chatbot for interaction.</p>
                 <p>Using : React , TypeScript  , Nodejs , Express.js , JavaScript , Prisma , Python , HTML , CSS , SQLite</p>
                 <a href="https://github.com/NobpasinTumdee/dashboard-honeypot.git">GitHub Repositories</a>
               </div>
@@ -63,10 +63,10 @@ const Experience = () => {
               <div data-aos="zoom-in-up">
                 <h1>A shopping mall management website</h1>
                 <h3>Full stack developer</h3>
-                <p>Developed stall booking, payment, and event management features</p>
-                <p>Implemented user profiles, email notifications, and modern dashboard UI</p>
-                <p>Deployed on DigitalOcean with Docker for containerized production setup</p>
-                <p>Contributed to core feature development across the platform</p>
+                <p>▪ Developed stall booking, payment, and event management features</p>
+                <p>▪ Implemented user profiles, email notifications, and modern dashboard UI</p>
+                <p>▪ Deployed on DigitalOcean with Docker for containerized production setup</p>
+                <p>▪ Contributed to core feature development across the platform</p>
                 <p>Using : React , TypeScript , Golang , Postman , GitHub , Figma , draw.io , SQLite </p>
                 <a href="https://github.com/sut67/team13.git">GitHub Repositories <br /></a>
                 <a href="https://www.facebook.com/profile.php?id=61567251587676">Facebook Group</a>
@@ -79,9 +79,9 @@ const Experience = () => {
               <div data-aos="zoom-in-up">
                 <h1>Online Movie Streaming Platform</h1>
                 <h3>Full stack developer</h3>
-                <p>Built watch history, homepage, and core platform features</p>
-                <p>Designed ERD for structured database planning</p>
-                <p>Collaborated with team using version control</p>
+                <p>▪ Built watch history, homepage, and core platform features</p>
+                <p>▪ Designed ERD for structured database planning</p>
+                <p>▪ Collaborated with team using version control</p>
                 <p>Using : React , TypeScript , Golang , GitHub , antd , Bootstrap </p>
                 <a href="https://github.com/NobpasinTumdee/testWebForSA.git">GitHub Repositories</a>
               </div>
@@ -93,9 +93,9 @@ const Experience = () => {
               <div data-aos="zoom-in-up">
                 <h1>Flower Shop Management System</h1>
                 <h3>Database-Driven Application</h3>
-                <p>Designed ER diagram and managed MySQL database</p>
-                <p>Hosted local server using XAMPP</p>
-                <p>Developed UI and application in C# using Visual Studio 2022</p>
+                <p>▪ Designed ER diagram and managed MySQL database</p>
+                <p>▪ Hosted local server using XAMPP</p>
+                <p>▪ Developed UI and application in C# using Visual Studio 2022</p>
                 <p>Using : C# , MySQL</p>
               </div>
             ),
