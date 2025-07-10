@@ -6,6 +6,7 @@ import Projects from './Page/Projects';
 import Experience from './Page/Experience';
 import Skill from './Page/Skill';
 import Contact from './Page/Contact';
+import Art from './Page/Art';
 import Rootlayout from './Layout/Rootlayout';
 import './root.css'
 
@@ -21,6 +22,7 @@ const router = createHashRouter([
       { path: "experience", element: <Experience /> },
       { path: "skill", element: <Skill /> },
       { path: "contact", element: <Contact /> },
+      { path: "art", element: <Art /> },
     ]
   }
 ]);

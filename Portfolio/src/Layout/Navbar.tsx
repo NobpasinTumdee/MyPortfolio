@@ -49,6 +49,7 @@ const Navbar = () => {
                     <Link to="experience" className={`Link-button ${isActive('/experience') ? 'active' : ''}`}> Experience </Link>
                     <Link to="skill" className={`Link-button ${isActive('/skill') ? 'active' : ''}`}> Skill </Link>
                     <Link to="contact" className={`Link-button ${isActive('/contact') ? 'active' : ''}`}> Contact </Link>
+                    <Link to="art" className={`Link-button ${isActive('/art') ? 'active' : ''}`}> ART </Link>
                     <div className="theme-toggle-wrapper">
                         <label className="toggle-switch">
                             {/* // checkbox for theme web */}
