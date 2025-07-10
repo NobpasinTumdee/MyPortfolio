@@ -81,7 +81,7 @@ const Skill = () => {
         </div>
         <div className="Logo-img-group" data-aos="flip-left">
           <img className="Logo-img" src={prism} alt="logo" />
-          <h3>prism</h3>
+          <h3>prisma</h3>
         </div>
         <div className="Logo-img-group" data-aos="flip-left">
           <img className="Logo-img" src={mysql} alt="logo" />

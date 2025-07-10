@@ -24,53 +24,53 @@ const Contact = () => {
         <p onClick={() => setActive(false)} className={`contact-button-sub ${isActive ? '' : 'active'}`}>💝 Support Me</p>
       </div>
       {isActive ? (
-        <div style={{margin:'0 0 10%'}}>
+        <div style={{ margin: '0 0 10%' }}>
           <div className='contact-main' data-aos="fade-right" data-aos-duration="1000">
             <a href='https://github.com/NobpasinTumdee' className='contact-sub'>
-              <div style={{display:'flex',alignItems:'center'}}>
+              <div style={{ display: 'flex', alignItems: 'center' }}>
                 <p className='logo-contact'>🌞</p>
                 <div>
-                  <h2 style={{margin:'0'}}>GitHub</h2>
-                  <p style={{margin:'0',opacity:'0.6'}}>Explore my code & projects</p>
+                  <h2 style={{ margin: '0' }}>GitHub</h2>
+                  <p style={{ margin: '0', opacity: '0.6' }}>Explore my code & projects.</p>
                 </div>
               </div>
               <p>▶</p>
             </a>
           </div>
           <div className='contact-main' data-aos="fade-left" data-aos-duration="1200">
-            <div className='contact-sub'>
-              <div style={{display:'flex',alignItems:'center'}}>
+            <a href='https://www.facebook.com/nobpasin.tamdee/' className='contact-sub'>
+              <div style={{ display: 'flex', alignItems: 'center' }}>
                 <p className='logo-contact'>🩵</p>
                 <div>
-                  <h2 style={{margin:'0'}}>LinkedIn</h2>
-                  <p style={{margin:'0',opacity:'0.6'}}>Let's connect professionally</p>
+                  <h2 style={{ margin: '0' }}>Facebook</h2>
+                  <p style={{ margin: '0', opacity: '0.6' }}>The fastest way to contact me is Facebook.</p>
                 </div>
               </div>
               <p>▶</p>
-            </div>
+            </a>
           </div>
           <div className='contact-main' data-aos="fade-right" data-aos-duration="1400">
-            <div className='contact-sub'>
-              <div style={{display:'flex',alignItems:'center'}}>
+            <a href='https://www.instagram.com/porgzzz/' className='contact-sub'>
+              <div style={{ display: 'flex', alignItems: 'center' }}>
                 <p className='logo-contact'>🩷</p>
                 <div>
-                  <h2 style={{margin:'0'}}>Instagram</h2>
-                  <p style={{margin:'0',opacity:'0.6'}}>My visual journal & life updates</p>
+                  <h2 style={{ margin: '0' }}>Instagram</h2>
+                  <p style={{ margin: '0', opacity: '0.6' }}>My visual journal & life updates.</p>
                 </div>
               </div>
               <p>▶</p>
-            </div>
+            </a>
           </div>
           <div className='contact-main' data-aos="fade-left" data-aos-duration="1600">
             <div className='contact-sub'>
-              <div style={{display:'flex',alignItems:'center'}}>
-                <p className='logo-contact'>🦜</p>
+              <div style={{ display: 'flex', alignItems: 'center' }}>
+                <p className='logo-contact'>✉️</p>
                 <div>
-                  <h2 style={{margin:'0'}}>Twitter</h2>
-                  <p style={{margin:'0',opacity:'0.6'}}>Random thoughts & dev tweets</p>
+                  <h2 style={{ margin: '0' }}>Gmail</h2>
+                  <p style={{ margin: '0', opacity: '0.6' }}>nobpasin579@gmail.com</p>
                 </div>
               </div>
-              <p>▶</p>
+              <p></p>
             </div>
           </div>
         </div>
