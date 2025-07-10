@@ -40,7 +40,7 @@ const Navbar = () => {
             <div className='main-nav'>
                 <div style={{ display: 'flex', alignItems: 'center' ,pointerEvents: 'none'}}>
                     <img src={code} width={30} alt="" />
-                    <h2 className='logo-text' data-aos="fade-right"> My Portofolio</h2>
+                    <h2 className='logo-text' data-aos="fade-right"> My Portfolio</h2>
                 </div>
                 <div className='nav-menu'>
                     <Link to="/" className={`Link-button ${isActive('/') ? 'active' : ''}`}> Home </Link>
