@@ -4,6 +4,7 @@ import me from '../assets/me.png';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import { Link } from 'react-router-dom';
+import Skill from './Skill';
 
 const Home = () => {
   useEffect(() => {
@@ -43,6 +44,9 @@ const Home = () => {
         <div className='main-home-left' data-aos="fade-up" data-aos-duration="1500">
           <img className='profile' src={me} alt="my profile" />
         </div>
+      </div>
+      <div>
+        <Skill />
       </div>
     </>
   )
