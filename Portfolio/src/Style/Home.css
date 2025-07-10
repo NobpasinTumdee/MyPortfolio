@@ -92,7 +92,7 @@
     width: 60%;
     height: auto;
     border-radius: 50%;
-    border: 10px solid var(--body-nav-background);
+    border: 10px solid var(--body-text-sub-color);
     box-shadow: #7d7c8188 0px 20px 90px;
     animation: popprofile 10s ease-in-out infinite;
     pointer-events: none;
