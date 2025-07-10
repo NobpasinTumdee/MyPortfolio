@@ -48,7 +48,7 @@ const Experience = () => {
             dot: <ClockCircleOutlined style={{ fontSize: '16px' }} />,
             color: 'green',
             children: (
-              <div data-aos="zoom-in-up">
+              <div data-aos="zoom-in-up" className='Ex-time-line'>
                 <h1>A capstone project on Honeypot Systems</h1>
                 <h3>Frontend Backend Cybersecurity</h3>
                 <p>▪ designed to detect malicious activity against decoy systems, visualize the data through a dashboard, and provide an integrated AI chatbot for interaction.</p>
@@ -60,7 +60,7 @@ const Experience = () => {
           {
             label: 'Nov 2024 - Jan 2025',
             children: (
-              <div data-aos="zoom-in-up">
+              <div data-aos="zoom-in-up" className='Ex-time-line'>
                 <h1>A shopping mall management website</h1>
                 <h3>Full stack developer</h3>
                 <p>▪ Developed stall booking, payment, and event management features</p>
@@ -76,7 +76,7 @@ const Experience = () => {
           {
             label: 'July – Sept 2024',
             children: (
-              <div data-aos="zoom-in-up">
+              <div data-aos="zoom-in-up" className='Ex-time-line'>
                 <h1>Online Movie Streaming Platform</h1>
                 <h3>Full stack developer</h3>
                 <p>▪ Built watch history, homepage, and core platform features</p>
@@ -90,7 +90,7 @@ const Experience = () => {
           {
             label: 'Mar – Jun 2024',
             children: (
-              <div data-aos="zoom-in-up">
+              <div data-aos="zoom-in-up" className='Ex-time-line'>
                 <h1>Flower Shop Management System</h1>
                 <h3>Database-Driven Application</h3>
                 <p>▪ Designed ER diagram and managed MySQL database</p>

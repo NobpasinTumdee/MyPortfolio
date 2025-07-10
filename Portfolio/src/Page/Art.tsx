@@ -39,26 +39,26 @@ const Art = () => {
             </div>
 
             <section className="layoutArt">
-                <img data-aos="zoom-in" className='Picture-art' width={300} height={300} src={A1} alt="A1" />
-                <img data-aos="zoom-in" className='Picture-art' width={300} height={300} src={A2} alt="A2" />
-                <img data-aos="zoom-in" className='Picture-art' width={300} height={300} src={A7} alt="A1" />
-                <img data-aos="zoom-in" className='Picture-art' width={300} height={300} src={A8} alt="A1" />
-                <img data-aos="zoom-in" className='Picture-art' width={300} height={300} src={A17} alt="A1" />
-                <img data-aos="zoom-in" className='Picture-art' width={300} height={300} src={A22} alt="A1" />
-                <img data-aos="zoom-in" className='Picture-art' width={300} height={300} src={A9} alt="A1" />
-                <img data-aos="zoom-in" className='Picture-art' width={300} height={300} src={A12} alt="A1" />
-                <img data-aos="zoom-in" className='Picture-art' width={300} height={300} src={A4} alt="A1" />
-                <img data-aos="zoom-in" className='Picture-art' width={300} height={300} src={A5} alt="A1" />
-                <img data-aos="zoom-in" className='Picture-art' width={300} height={300} src={A3} alt="A3" />
-                <img data-aos="zoom-in" className='Picture-art' width={300} height={300} src={A6} alt="A1" />
-                <img data-aos="zoom-in" className='Picture-art' width={300} height={300} src={A10} alt="A1" />
-                <img data-aos="zoom-in" className='Picture-art' width={300} height={300} src={A11} alt="A1" />
-                <img data-aos="zoom-in" className='Picture-art' width={300} height={300} src={A21} alt="A1" />
-                <img data-aos="zoom-in" className='Picture-art' width={300} height={300} src={A13} alt="A1" />
-                <img data-aos="zoom-in" className='Picture-art' width={300} height={300} src={A14} alt="A1" />
-                <img data-aos="zoom-in" className='Picture-art' width={300} height={300} src={A15} alt="A1" />
-                <img data-aos="zoom-in" className='Picture-art' width={300} height={300} src={A16} alt="A1" />
-                <img data-aos="zoom-in" className='Picture-art' width={300} height={300} src={A18} alt="A1" />
+                <img data-aos="zoom-in" className='Picture-art' src={A1} alt="A1" />
+                <img data-aos="zoom-in" className='Picture-art' src={A2} alt="A2" />
+                <img data-aos="zoom-in" className='Picture-art' src={A7} alt="A1" />
+                <img data-aos="zoom-in" className='Picture-art' src={A8} alt="A1" />
+                <img data-aos="zoom-in" className='Picture-art' src={A17} alt="A1" />
+                <img data-aos="zoom-in" className='Picture-art' src={A22} alt="A1" />
+                <img data-aos="zoom-in" className='Picture-art' src={A9} alt="A1" />
+                <img data-aos="zoom-in" className='Picture-art' src={A12} alt="A1" />
+                <img data-aos="zoom-in" className='Picture-art' src={A4} alt="A1" />
+                <img data-aos="zoom-in" className='Picture-art' src={A5} alt="A1" />
+                <img data-aos="zoom-in" className='Picture-art' src={A3} alt="A3" />
+                <img data-aos="zoom-in" className='Picture-art' src={A6} alt="A1" />
+                <img data-aos="zoom-in" className='Picture-art' src={A10} alt="A1" />
+                <img data-aos="zoom-in" className='Picture-art' src={A11} alt="A1" />
+                <img data-aos="zoom-in" className='Picture-art' src={A21} alt="A1" />
+                <img data-aos="zoom-in" className='Picture-art' src={A13} alt="A1" />
+                <img data-aos="zoom-in" className='Picture-art' src={A14} alt="A1" />
+                <img data-aos="zoom-in" className='Picture-art' src={A15} alt="A1" />
+                <img data-aos="zoom-in" className='Picture-art' src={A16} alt="A1" />
+                <img data-aos="zoom-in" className='Picture-art' src={A18} alt="A1" />
             </section>
         </>
     )

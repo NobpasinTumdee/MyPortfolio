@@ -38,8 +38,8 @@ const Navbar = () => {
     return (
         <>
             <div className='main-nav'>
-                <div style={{ display: 'flex', alignItems: 'center' ,pointerEvents: 'none'}}>
-                    <img src={code} width={30} alt="" />
+                <div className='header-nav'>
+                    <img className='logo-code-nav' src={code} width={30} alt="" />
                     <h2 className='logo-text' data-aos="fade-right"> My Portfolio</h2>
                 </div>
                 <div className='nav-menu'>

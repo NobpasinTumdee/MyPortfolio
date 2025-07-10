@@ -1,6 +1,7 @@
 .Experience-h1 {
     text-align: center;
 }
+
 .Timeline {
     color: var(--body-text-main-color);
 }
@@ -10,16 +11,58 @@
 
 /* ART */
 .layoutArt {
-  width: 100%;
+    width: 80%;
 
-  display: flex;
-  gap: 16px;
-  flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 18px;
 
-  margin: 0 10%;
+    padding: 0 10%;
 }
 
 .Picture-art {
+    width: 270px;
+    height: 270px;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+
+@media screen and (max-width: 770px) {
+    .layoutArt {
+        width: 80%;
+
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 18px;
+
+        padding: 0 10%;
+    }
+
+    .Ex-time-line {
+        font-size: 0.7rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .layoutArt {
+        width: 80%;
+
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 18px;
+
+        padding: 0 10%;
+    }
+
+    .Picture-art {
+        width: 340px;
+        height: 340px;
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    }
+
+    .Ex-time-line {
+        font-size: 0.5rem;
+    }
 }

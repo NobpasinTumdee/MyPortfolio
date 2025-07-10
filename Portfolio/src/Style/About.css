@@ -43,3 +43,35 @@
     overflow-y: scroll;
     max-height: 200px;
 }
+
+
+@media screen and (max-width: 770px) {
+    .about-main {
+        display: block;
+        justify-content: center;
+        margin: 40px 0 10%;
+    }
+
+    .picture {
+        text-align: center;
+        margin: 0 25%;
+    }
+
+    .info {
+        margin: 0 5%;
+        width: 90%;
+    }
+
+    .info1 {
+        display: flex;
+        gap: 10px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .picture {
+        text-align: center;
+        margin: 0;
+        width: 100%;
+    }
+}
