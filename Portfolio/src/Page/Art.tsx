@@ -49,16 +49,16 @@ const Art = () => {
                 <img data-aos="zoom-in" className='Picture-art' src={A12} alt="A1" />
                 <img data-aos="zoom-in" className='Picture-art' src={A4} alt="A1" />
                 <img data-aos="zoom-in" className='Picture-art' src={A5} alt="A1" />
-                <img data-aos="zoom-in" className='Picture-art' src={A3} alt="A3" />
                 <img data-aos="zoom-in" className='Picture-art' src={A6} alt="A1" />
                 <img data-aos="zoom-in" className='Picture-art' src={A10} alt="A1" />
                 <img data-aos="zoom-in" className='Picture-art' src={A11} alt="A1" />
                 <img data-aos="zoom-in" className='Picture-art' src={A21} alt="A1" />
+                <img data-aos="zoom-in" className='Picture-art' src={A15} alt="A1" />
+                <img data-aos="zoom-in" className='Picture-art' src={A18} alt="A1" />
+                <img data-aos="zoom-in" className='Picture-art' src={A16} alt="A1" />
+                <img data-aos="zoom-in" className='Picture-art' src={A3} alt="A3" />
                 <img data-aos="zoom-in" className='Picture-art' src={A13} alt="A1" />
                 <img data-aos="zoom-in" className='Picture-art' src={A14} alt="A1" />
-                <img data-aos="zoom-in" className='Picture-art' src={A15} alt="A1" />
-                <img data-aos="zoom-in" className='Picture-art' src={A16} alt="A1" />
-                <img data-aos="zoom-in" className='Picture-art' src={A18} alt="A1" />
             </section>
         </>
     )

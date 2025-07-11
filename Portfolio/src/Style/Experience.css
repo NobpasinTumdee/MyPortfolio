@@ -15,6 +15,7 @@
 
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
     gap: 18px;
 
     padding: 0 10%;
@@ -22,11 +23,42 @@
 
 .Picture-art {
     width: 270px;
-    height: 270px;
+    height: auto;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 
+
+@media screen and (max-width: 1160px) {
+    .layoutArt {
+        width: 80%;
+
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 18px;
+
+        padding: 0 10%;
+    }
+
+    .Ex-time-line {
+        font-size: 0.7rem;
+    }
+}
+@media screen and (max-width: 845px) {
+    .layoutArt {
+        width: 80%;
+
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 18px;
+
+        padding: 0 10%;
+    }
+
+    .Ex-time-line {
+        font-size: 0.7rem;
+    }
+}
 
 @media screen and (max-width: 770px) {
     .layoutArt {
@@ -57,12 +89,24 @@
 
     .Picture-art {
         width: 340px;
-        height: 340px;
         border-radius: 10px;
         box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
     }
 
     .Ex-time-line {
         font-size: 0.5rem;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .layoutArt {
+        width: 100%;
+        padding: 0 0%;
+    }
+    .Picture-art {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
     }
 }
