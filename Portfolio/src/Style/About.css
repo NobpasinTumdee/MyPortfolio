@@ -38,6 +38,25 @@
     width: 50%;
 }
 
+.personal-info-button {
+    width: 10%;
+    height: 20px;
+    padding: 10px 20px;
+    background-color: var(--body-nav-background);
+    color: var(--body-text-main-color);
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+.personal-info-button:hover {
+    background-color: var(--body-text-main-color);
+    color: var(--body-text-hover-color);
+}
+
 .about-info {
     font-family: "Mitr", sans-serif;
     overflow-y: scroll;
@@ -72,6 +91,15 @@
     .picture {
         text-align: center;
         margin: 0;
-        width: 100%;
+        width: 100vw;
+        animation: none;
+        border: none;
+        border-radius: 0;
+    }
+
+    .personal-info-button {
+        font-size: 0.8rem;
+        padding: 5px 15px;
+        width: 20%;
     }
 }

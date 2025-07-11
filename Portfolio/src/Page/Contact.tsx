@@ -19,7 +19,7 @@ const Contact = () => {
         <h1 data-aos="fade-down">Contact Me</h1>
         <p data-aos="fade-up" data-aos-duration="1100" style={{ opacity: '0.6' }}>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure, sapiente.</p>
       </div>
-      <div className='contact-button'>
+      <div className='contact-button' data-aos="fade-down">
         <p onClick={() => setActive(true)} className={`contact-button-sub ${isActive ? 'active' : ''}`}>☎️ Contact Me</p>
         <p onClick={() => setActive(false)} className={`contact-button-sub ${isActive ? '' : 'active'}`}>💝 Support Me</p>
       </div>

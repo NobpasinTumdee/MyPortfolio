@@ -38,20 +38,21 @@ const About = () => {
           </div>
           <h2 data-aos="fade-down">👩🏻‍🚀Personal Info</h2>
           <div className='info1'>
-            <p className='personal-info' data-aos="fade-right" data-aos-duration="1200"><span style={{ fontWeight: '600' }}>Name:</span> Nobpasin Tumdee</p>
-            <p className='personal-info' data-aos="fade-left" data-aos-duration="1200"><span style={{ fontWeight: '600' }}>Date of Birth:</span> September,16-2003</p>
+            <p className='personal-info' data-aos="fade-up" data-aos-duration="1200"><span style={{ fontWeight: '600' }}>Name:</span> Nobpasin Tumdee</p>
+            <p className='personal-info' data-aos="fade-up" data-aos-duration="1400"><span style={{ fontWeight: '600' }}>Date of Birth:</span> September,16-2003</p>
           </div>
           <div className='info1'>
-            <p className='personal-info' data-aos="fade-right" data-aos-duration="1200"><span style={{ fontWeight: '600' }}>Place of Birth:</span> Nakhon Ratchasima</p>
-            <p className='personal-info' data-aos="fade-left" data-aos-duration="1200"><span style={{ fontWeight: '600' }}>Email:</span> porporpor579@gmail.com</p>
+            <p className='personal-info' data-aos="fade-up" data-aos-duration="1600"><span style={{ fontWeight: '600' }}>Place of Birth:</span> Nakhon Ratchasima</p>
+            <p className='personal-info' data-aos="fade-up" data-aos-duration="1600"><span style={{ fontWeight: '600' }}>Email:</span> porporpor579@gmail.com</p>
           </div>
           <div className='info1'>
-            <p className='personal-info' data-aos="fade-right" data-aos-duration="1200"><span style={{ fontWeight: '600' }}>Phone:</span> 061-691-8493</p>
-            <p className='personal-info' data-aos="fade-left" data-aos-duration="1200"><span style={{ fontWeight: '600' }}>Education:</span> Suranaree University</p>
+            <p className='personal-info' data-aos="fade-up" data-aos-duration="1200"><span style={{ fontWeight: '600' }}>Phone:</span> 061-691-8493</p>
+            <p className='personal-info' data-aos="fade-up" data-aos-duration="1200"><span style={{ fontWeight: '600' }}>Education:</span> Suranaree University</p>
           </div>
           <div className='info1'>
-            <p className='personal-info' data-aos="fade-right" data-aos-duration="1200"><span style={{ fontWeight: '600' }}>GPA:</span> 3.51 / 4.00</p>
-            <p className='personal-info' data-aos="fade-left" data-aos-duration="1200"><span style={{ fontWeight: '600' }}>GitHub:</span> https://github.com/NobpasinTumdee</p>
+            <p className='personal-info' data-aos="fade-up" data-aos-duration="1200"><span style={{ fontWeight: '600' }}>GPA:</span> 3.51 / 4.00</p>
+            {/* <p className='personal-info' data-aos="fade-left" data-aos-duration="1200"><span style={{ fontWeight: '600' }}>GitHub:</span> https://github.com/NobpasinTumdee</p> */}
+            <a href='https://github.com/NobpasinTumdee' data-aos="fade-up" data-aos-duration="1200" className='personal-info-button'>GitHub</a>
           </div>
         </div>
       </div>

@@ -23,6 +23,7 @@ import A22 from '../assets/Art/A22.jpg'
 import { useEffect } from 'react'
 import Aos from 'aos';
 import 'aos/dist/aos.css';
+import { Image } from 'antd';
 
 const Art = () => {
     useEffect(() => {
@@ -35,30 +36,30 @@ const Art = () => {
         <>
             <div style={{ margin: ' 2% 10% 2%' }} data-aos="fade-right">
                 <h1>My Art</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, distinctio!</p>
+                <p>Besides programming, my hobby is drawing !</p>
             </div>
 
             <section className="layoutArt">
-                <img data-aos="zoom-in" className='Picture-art' src={A1} alt="A1" />
-                <img data-aos="zoom-in" className='Picture-art' src={A2} alt="A2" />
-                <img data-aos="zoom-in" className='Picture-art' src={A7} alt="A1" />
-                <img data-aos="zoom-in" className='Picture-art' src={A8} alt="A1" />
-                <img data-aos="zoom-in" className='Picture-art' src={A17} alt="A1" />
-                <img data-aos="zoom-in" className='Picture-art' src={A22} alt="A1" />
-                <img data-aos="zoom-in" className='Picture-art' src={A9} alt="A1" />
-                <img data-aos="zoom-in" className='Picture-art' src={A12} alt="A1" />
-                <img data-aos="zoom-in" className='Picture-art' src={A4} alt="A1" />
-                <img data-aos="zoom-in" className='Picture-art' src={A5} alt="A1" />
-                <img data-aos="zoom-in" className='Picture-art' src={A6} alt="A1" />
-                <img data-aos="zoom-in" className='Picture-art' src={A10} alt="A1" />
-                <img data-aos="zoom-in" className='Picture-art' src={A11} alt="A1" />
-                <img data-aos="zoom-in" className='Picture-art' src={A21} alt="A1" />
-                <img data-aos="zoom-in" className='Picture-art' src={A15} alt="A1" />
-                <img data-aos="zoom-in" className='Picture-art' src={A18} alt="A1" />
-                <img data-aos="zoom-in" className='Picture-art' src={A16} alt="A1" />
-                <img data-aos="zoom-in" className='Picture-art' src={A3} alt="A3" />
-                <img data-aos="zoom-in" className='Picture-art' src={A13} alt="A1" />
-                <img data-aos="zoom-in" className='Picture-art' src={A14} alt="A1" />
+                <Image data-aos="zoom-in" className='Picture-art' src={A1} alt="A1" />
+                <Image data-aos="zoom-in" className='Picture-art' src={A2} alt="A2" />
+                <Image data-aos="zoom-in" className='Picture-art' src={A7} alt="A1" />
+                <Image data-aos="zoom-in" className='Picture-art' src={A8} alt="A1" />
+                <Image data-aos="zoom-in" className='Picture-art' src={A17} alt="A1" />
+                <Image data-aos="zoom-in" className='Picture-art' src={A22} alt="A1" />
+                <Image data-aos="zoom-in" className='Picture-art' src={A9} alt="A1" />
+                <Image data-aos="zoom-in" className='Picture-art' src={A12} alt="A1" />
+                <Image data-aos="zoom-in" className='Picture-art' src={A4} alt="A1" />
+                <Image data-aos="zoom-in" className='Picture-art' src={A5} alt="A1" />
+                <Image data-aos="zoom-in" className='Picture-art' src={A6} alt="A1" />
+                <Image data-aos="zoom-in" className='Picture-art' src={A10} alt="A1" />
+                <Image data-aos="zoom-in" className='Picture-art' src={A11} alt="A1" />
+                <Image data-aos="zoom-in" className='Picture-art' src={A21} alt="A1" />
+                <Image data-aos="zoom-in" className='Picture-art' src={A15} alt="A1" />
+                <Image data-aos="zoom-in" className='Picture-art' src={A18} alt="A1" />
+                <Image data-aos="zoom-in" className='Picture-art' src={A16} alt="A1" />
+                <Image data-aos="zoom-in" className='Picture-art' src={A3} alt="A3" />
+                <Image data-aos="zoom-in" className='Picture-art' src={A13} alt="A1" />
+                <Image data-aos="zoom-in" className='Picture-art' src={A14} alt="A1" />
             </section>
         </>
     )

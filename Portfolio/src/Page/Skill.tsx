@@ -34,7 +34,7 @@ const Skill = () => {
   return (
     <>
       <h1 style={{ textAlign: 'center' }} data-aos="fade-down">MY SKILLS</h1>
-      <p style={{ textAlign: 'center', opacity: '0.7' }} data-aos="fade-up">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi, numquam.</p>
+      <p style={{ textAlign: 'center', opacity: '0.7' }} data-aos="fade-up">The skills you see are just a few of the things I learned and gained from studying and gaining more knowledge.</p>
 
       <h2 style={{ textAlign: 'center', marginBottom: '0' }}>Front-end</h2>
       <div className="skill-frontend">
