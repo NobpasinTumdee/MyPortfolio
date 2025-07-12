@@ -29,7 +29,7 @@ const Home = () => {
         <div className='main-home-righ'>
           <h1 id="Top" style={{ fontWeight: '900', fontSize: '2.5rem' }} data-aos="fade-down">HI, I'm Nobpasin Tumdee</h1>
           <h2 className='rainbow-text' data-aos="fade-right" data-aos-duration="1000">Frontend Developer And cybersecurity ✨</h2>
-          <p style={{ fontWeight: '400', opacity: '0.8' }} className='font-explan' data-aos="fade-left" data-aos-duration="1000">
+          <p style={{ fontWeight: '400', opacity: '0.8' }} className='font-explan' data-aos="fade-up" data-aos-duration="1000">
             ยินดีต้อนรับสู่ Portfolio ของผม <br /> สวัสดีครับ ผม นายนภสินธุ์ ทำดี นักศึกษาวิศวกรรมคอมพิวเตอร์ CPE #27 จากมหาวิทยาลัยเทคโนโลยีสุรนารี<br />ที่นี่คือ เว็บไซต์ Portfolio ของผม คุณสามารถดูผลงาน ความสามารถ จุดเด่น รวมถึง ประวัติและข้อมูลติดต่อ ผมหวังว่าเว็บไซต์นี้จะเป็นประโยชน์กับคุณนะครับ
           </p>
           <div className='social-media' data-aos="fade-down">
