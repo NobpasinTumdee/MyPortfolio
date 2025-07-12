@@ -10,10 +10,10 @@ import MyCV from '../assets/CV.pdf';
 import FlowingMenu from '../component/FlowingMenu';
 
 const demoItems = [
-  { link: 'MyPortfolio#/projects', text: 'Projects', image: 'https://picsum.photos/600/400?random=1' },
-  { link: 'MyPortfolio#/experience', text: 'Experience', image: 'https://picsum.photos/600/400?random=2' },
-  { link: 'MyPortfolio#/contact', text: 'Contact', image: 'https://picsum.photos/600/400?random=3' },
-  { link: 'MyPortfolio#/about', text: 'About', image: 'https://picsum.photos/600/400?random=4' }
+  { link: '#/projects', text: 'Projects', image: 'https://picsum.photos/600/400?random=1' },
+  { link: '#/experience', text: 'Experience', image: 'https://picsum.photos/600/400?random=2' },
+  { link: '#/contact', text: 'Contact', image: 'https://picsum.photos/600/400?random=3' },
+  { link: '#/about', text: 'About', image: 'https://picsum.photos/600/400?random=4' }
 ];
 
 const Home = () => {

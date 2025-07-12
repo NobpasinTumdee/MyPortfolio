@@ -25,7 +25,7 @@ const Contact = () => {
       </div>
       {isActive ? (
         <div style={{ margin: '0 0 10%' }}>
-          <div className='contact-main' data-aos="fade-right" data-aos-duration="1000">
+          <div className='contact-main' data-aos="fade-up" data-aos-duration="1000">
             <a href='https://github.com/NobpasinTumdee' className='contact-sub'>
               <div style={{ display: 'flex', alignItems: 'center' }}>
                 <p className='logo-contact'>🌞</p>
@@ -37,7 +37,7 @@ const Contact = () => {
               <p>▶</p>
             </a>
           </div>
-          <div className='contact-main' data-aos="fade-left" data-aos-duration="1200">
+          <div className='contact-main' data-aos="fade-up" data-aos-duration="1200">
             <a href='https://www.facebook.com/nobpasin.tamdee/' className='contact-sub'>
               <div style={{ display: 'flex', alignItems: 'center' }}>
                 <p className='logo-contact'>🩵</p>
@@ -49,7 +49,7 @@ const Contact = () => {
               <p>▶</p>
             </a>
           </div>
-          <div className='contact-main' data-aos="fade-right" data-aos-duration="1400">
+          <div className='contact-main' data-aos="fade-up" data-aos-duration="1400">
             <a href='https://www.instagram.com/porgzzz/' className='contact-sub'>
               <div style={{ display: 'flex', alignItems: 'center' }}>
                 <p className='logo-contact'>🩷</p>
@@ -61,7 +61,7 @@ const Contact = () => {
               <p>▶</p>
             </a>
           </div>
-          <div className='contact-main' data-aos="fade-left" data-aos-duration="1600">
+          <div className='contact-main' data-aos="fade-up" data-aos-duration="1600">
             <div className='contact-sub'>
               <div style={{ display: 'flex', alignItems: 'center' }}>
                 <p className='logo-contact'>✉️</p>

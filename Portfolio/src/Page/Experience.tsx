@@ -8,7 +8,7 @@ import Aos from 'aos';
 import 'aos/dist/aos.css';
 
 const Experience = () => {
-  const [mode, setMode] = useState<'left' | 'alternate' | 'right'>('alternate');
+  const [mode, setMode] = useState<'left' | 'alternate' | 'right'>('right');
 
   const onChange = (e: RadioChangeEvent) => {
     setMode(e.target.value);
