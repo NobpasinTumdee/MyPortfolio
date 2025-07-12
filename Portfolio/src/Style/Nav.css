@@ -206,11 +206,79 @@
   }
 }
 
+.visible-to-mobile {
+  display: none;
+}
+
+.visible-to-desktop {
+  display: flex;
+  gap: 10px;
+}
 
 
+.dropdown {
+  display: inline-block;
+}
+
+.dropbtn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: inherit;
+  padding: 0;
+  color: inherit;
+  font-weight: 500;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: var(--body-nav-background);
+  min-width: 90px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-radius: 6px;
+}
+
+.dropdown-content a {
+  color: var(--body-text-main-color);
+  padding: 5px 5px;
+  text-decoration: none;
+  display: block;
+  transition: 0.3s ease-in-out;
+  margin: 10px 0;
+}
+
+.dropdown-content a:hover {
+  padding: 5px 14px;
+  border-radius: 4px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+@media screen and (max-width: 900px) {
+  .visible-to-desktop {
+    display: none;
+  }
+  .visible-to-mobile {
+    display: block;
+  }
+}
 
 
 @media screen and (max-width: 770px) {
+
+  .visible-to-mobile {
+    display: block;
+  }
+
+  .visible-to-desktop {
+    display: none;
+  }
+
   .main-nav {
     position: fixed;
     display: block;
@@ -234,7 +302,7 @@
 
   .nav-menu {
     display: grid;
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
     grid-template-columns: repeat(4, 1fr);
     gap: 10px 0;
     align-items: center;
@@ -247,7 +315,7 @@
   }
 
   .gaplayout {
-    height: 170px;
+    height: 100px;
   }
 }
 
@@ -275,7 +343,7 @@
 
   .nav-menu {
     display: grid;
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
     grid-template-columns: repeat(4, 1fr);
     gap: 10px 0;
     align-items: center;
@@ -288,19 +356,21 @@
   }
 
   .gaplayout {
-    height: 170px;
+    height: 100px;
   }
 }
+
 @media screen and (max-width: 430px) {
   .nav-menu {
     font-size: 0.8rem;
   }
 }
+
 @media screen and (max-width: 400px) {
 
   .nav-menu {
     display: grid;
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
     grid-template-columns: repeat(4, 1fr);
     gap: 10px 0;
     align-items: center;
@@ -313,6 +383,7 @@
   .header-nav {
     display: none;
   }
+
   .main-nav {
     position: fixed;
     top: 10px;
@@ -322,6 +393,7 @@
     margin: 0 5%;
     border-radius: 20px;
   }
+
   .nav-menu {
     display: grid;
     grid-template-rows: repeat(2, 1fr);
@@ -333,6 +405,7 @@
   }
 
 }
+
 @media screen and (max-width: 290px) {
 
   .nav-menu {

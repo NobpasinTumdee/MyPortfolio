@@ -44,13 +44,17 @@ const Navbar = () => {
                 </div>
                 <div className='nav-menu'>
                     <Link to="/" className={`Link-button ${isActive('/') ? 'active' : ''}`}> Home </Link>
-                    <Link to="about" className={`Link-button ${isActive('/about') ? 'active' : ''}`}> About </Link>
-                    <Link to="projects" className={`Link-button ${isActive('/projects') ? 'active' : ''}`}> Projects </Link>
+                    <div className='visible-to-desktop'>
+                        <Link to="about" className={`Link-button ${isActive('/about') ? 'active' : ''}`}> About </Link>
+                        <Link to="projects" className={`Link-button ${isActive('/projects') ? 'active' : ''}`}> Projects </Link>
+                    </div>
                     <Link to="experience" className={`Link-button ${isActive('/experience') ? 'active' : ''}`}> Experience </Link>
-                    <Link to="skill" className={`Link-button ${isActive('/skill') ? 'active' : ''}`}> Skill </Link>
+                    <div className='visible-to-desktop'>
+                        <Link to="skill" className={`Link-button ${isActive('/skill') ? 'active' : ''}`}> Skill </Link>
+                        <Link to="art" className={`Link-button ${isActive('/art') ? 'active' : ''}`}> ART </Link>
+                    </div>
                     <Link to="contact" className={`Link-button ${isActive('/contact') ? 'active' : ''}`}> Contact </Link>
-                    <Link to="art" className={`Link-button ${isActive('/art') ? 'active' : ''}`}> ART </Link>
-                    <div className="theme-toggle-wrapper">
+                    <div className="theme-toggle-wrapper visible-to-desktop">
                         <label className="toggle-switch">
                             {/* // checkbox for theme web */}
                             <input type="checkbox" id='darkmode-toggle' onChange={toggleTheme} defaultChecked={SelectedTheme === "dark"} />
@@ -69,6 +73,38 @@ const Navbar = () => {
                                 </div>
                             </span>
                         </label>
+                    </div>
+                    <div className="dropdown">
+                        <button className="dropbtn">More</button>
+                        <div className="dropdown-content">
+                            <Link to="document" className={`Link-button ${isActive('/document') ? 'active' : ''}`}> Document </Link>
+                            <div className='visible-to-mobile'>
+                                <Link to="about" className={`Link-button ${isActive('/about') ? 'active' : ''}`}> About </Link>
+                                <Link to="projects" className={`Link-button ${isActive('/projects') ? 'active' : ''}`}> Projects </Link>
+                                <Link to="skill" className={`Link-button ${isActive('/skill') ? 'active' : ''}`}> Skill </Link>
+                                <Link to="art" className={`Link-button ${isActive('/art') ? 'active' : ''}`}> ART </Link>
+                            </div>
+
+                            <div className="theme-toggle-wrapper visible-to-mobile">
+                                <label className="toggle-switch">
+                                    <input type="checkbox" id='darkmode-toggle' onChange={toggleTheme} defaultChecked={SelectedTheme === "dark"} />
+                                    <span className="slider">
+                                        <div className="clouds">
+                                            <svg viewBox="0 0 100 100" className="cloud cloud1">
+                                                <path
+                                                    d="M30,45 Q35,25 50,25 Q65,25 70,45 Q80,45 85,50 Q90,55 85,60 Q80,65 75,60 Q65,60 60,65 Q55,70 50,65 Q45,70 40,65 Q35,60 25,60 Q20,65 15,60 Q10,55 15,50 Q20,45 30,45"
+                                                ></path>
+                                            </svg>
+                                            <svg viewBox="0 0 100 100" className="cloud cloud2">
+                                                <path
+                                                    d="M30,45 Q35,25 50,25 Q65,25 70,45 Q80,45 85,50 Q90,55 85,60 Q80,65 75,60 Q65,60 60,65 Q55,70 50,65 Q45,70 40,65 Q35,60 25,60 Q20,65 15,60 Q10,55 15,50 Q20,45 30,45"
+                                                ></path>
+                                            </svg>
+                                        </div>
+                                    </span>
+                                </label>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
