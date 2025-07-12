@@ -7,6 +7,14 @@ import { Link } from 'react-router-dom';
 import Skill from './Skill';
 
 import MyCV from '../assets/CV.pdf';
+import FlowingMenu from '../component/FlowingMenu';
+
+const demoItems = [
+  { link: 'MyPortfolio#/projects', text: 'Projects', image: 'https://picsum.photos/600/400?random=1' },
+  { link: 'MyPortfolio#/experience', text: 'Experience', image: 'https://picsum.photos/600/400?random=2' },
+  { link: 'MyPortfolio#/contact', text: 'Contact', image: 'https://picsum.photos/600/400?random=3' },
+  { link: 'MyPortfolio#/about', text: 'About', image: 'https://picsum.photos/600/400?random=4' }
+];
 
 const Home = () => {
   useEffect(() => {
@@ -19,7 +27,7 @@ const Home = () => {
     <>
       <div className='main-home'>
         <div className='main-home-righ'>
-          <h1 style={{ fontWeight: '900', fontSize: '2.5rem' }} data-aos="fade-down">HI, I'm Nobpasin Tumdee</h1>
+          <h1 id="Top" style={{ fontWeight: '900', fontSize: '2.5rem' }} data-aos="fade-down">HI, I'm Nobpasin Tumdee</h1>
           <h2 className='rainbow-text' data-aos="fade-right" data-aos-duration="1000">Frontend Developer And cybersecurity ✨</h2>
           <p style={{ fontWeight: '400', opacity: '0.8' }} className='font-explan' data-aos="fade-left" data-aos-duration="1000">
             ยินดีต้อนรับสู่ Portfolio ของผม <br /> สวัสดีครับ ผม นายนภสินธุ์ ทำดี นักศึกษาวิศวกรรมคอมพิวเตอร์ CPE #27 จากมหาวิทยาลัยเทคโนโลยีสุรนารี<br />ที่นี่คือ เว็บไซต์ Portfolio ของผม คุณสามารถดูผลงาน ความสามารถ จุดเด่น รวมถึง ประวัติและข้อมูลติดต่อ ผมหวังว่าเว็บไซต์นี้จะเป็นประโยชน์กับคุณนะครับ
@@ -51,6 +59,9 @@ const Home = () => {
       </div>
       <div>
         <Skill />
+      </div>
+      <div style={{ height: '300px', position: 'relative', backgroundColor: 'var(--body-text-main-color)' }}>
+        <FlowingMenu items={demoItems} />
       </div>
     </>
   )

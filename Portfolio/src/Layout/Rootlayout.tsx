@@ -3,15 +3,17 @@ import Footer from './Footer'
 import Navbar from './Navbar'
 import { Outlet } from 'react-router-dom'
 import '../Style/Nav.css'
+import ScrollToTop from './ScrollToTop'
 
 const Rootlayout = () => {
   return (
     <>
+      <ScrollToTop />
       <Navbar />
       <div className='gaplayout'></div>
 
       {/* text cursor */}
-      <div style={{ width: '100vw', height: '100vh', position: 'fixed' ,zIndex: '0'}}>
+      <div style={{ width: '100vw', height: '100vh', position: 'fixed', zIndex: '0' }}>
         <TextCursor
           text="✨"
           delay={0.1}
