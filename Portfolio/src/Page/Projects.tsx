@@ -25,8 +25,20 @@ import n6 from '../assets/Project/netflim/n6.png';
 import n7 from '../assets/Project/netflim/n7.png';
 import n8 from '../assets/Project/netflim/n8.png';
 
+import c1 from '../assets/Project/CTF/c1.png';
+import c2 from '../assets/Project/CTF/c2.png';
+import c3 from '../assets/Project/CTF/c3.png';
+import c4 from '../assets/Project/CTF/c4.png';
+import c5 from '../assets/Project/CTF/c5.png';
 
-// https://assets.justinmind.com/wp-content/uploads/2020/10/video-hero-image-example.png
+import h1 from '../assets/Project/HoneyPot/h1.png';
+import h2 from '../assets/Project/HoneyPot/h2.png';
+import h3 from '../assets/Project/HoneyPot/h3.png';
+import h4 from '../assets/Project/HoneyPot/h4.png';
+import h5 from '../assets/Project/HoneyPot/h5.png';
+import h6 from '../assets/Project/HoneyPot/h6.png';
+
+
 const Projects = () => {
   useEffect(() => {
     Aos.init({
@@ -42,8 +54,12 @@ const Projects = () => {
 
           <div className='side-project'>
             <Carousel autoplay arrows>
-              <img src={s1} alt="Picture Project" className='Project-picture' />
-              <img src={s3} alt="Picture Project" className='Project-picture' />
+              <img src={h1} alt="Picture Project" className='Project-picture' />
+              <img src={h2} alt="Picture Project" className='Project-picture' />
+              <img src={h3} alt="Picture Project" className='Project-picture' />
+              <img src={h4} alt="Picture Project" className='Project-picture' />
+              <img src={h5} alt="Picture Project" className='Project-picture' />
+              <img src={h6} alt="Picture Project" className='Project-picture' />
             </Carousel>
             <h2>Smart tiny HoneyPot</h2>
             <p className='Project-text-content'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, vero quia. Nemo, quae eligendi delectus explicabo quam natus provident beatae corrupti reiciendis, adipisci facere voluptatibus ex! Quasi nesciunt iste, quod illum, commodi debitis omnis expedita tempore voluptate nulla, sunt ex quos necessitatibus dolor odio labore recusandae? Hic maxime sint sit iste voluptas omnis possimus explicabo reprehenderit eius, recusandae quisquam velit esse. Eum minus id reprehenderit, voluptates quia, labore magni nihil quasi assumenda aspernatur voluptate voluptatem placeat nemo et porro perferendis deserunt accusantium a eveniet, omnis esse. Nesciunt, dolor voluptatum? Laborum asperiores inventore doloribus exercitationem, culpa quod ipsam quam magnam perferendis?</p>
@@ -94,10 +110,14 @@ const Projects = () => {
 
           <div className='side-project'>
             <Carousel autoplay arrows>
-              <img src={s1} alt="Picture Project" className='Project-picture' />
+              <img src={c1} alt="Picture Project" className='Project-picture' />
+              <img src={c2} alt="Picture Project" className='Project-picture' />
+              <img src={c3} alt="Picture Project" className='Project-picture' />
+              <img src={c4} alt="Picture Project" className='Project-picture' />
+              <img src={c5} alt="Picture Project" className='Project-picture' />
             </Carousel>
             <h2>CTF Cybersecurity Game</h2>
-            <p className='Project-text-content'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, vero quia. Nemo, quae eligendi delectus explicabo quam natus provident beatae corrupti reiciendis, adipisci facere voluptatibus ex! Quasi nesciunt iste, quod illum, commodi debitis omnis expedita tempore voluptate nulla, sunt ex quos necessitatibus dolor odio labore recusandae? Hic maxime sint sit iste voluptas omnis possimus explicabo reprehenderit eius, recusandae quisquam velit esse. Eum minus id reprehenderit, voluptates quia, labore magni nihil quasi assumenda aspernatur voluptate voluptatem placeat nemo et porro perferendis deserunt accusantium a eveniet, omnis esse. Nesciunt, dolor voluptatum? Laborum asperiores inventore doloribus exercitationem, culpa quod ipsam quam magnam perferendis?</p>
+            <p className='Project-text-content'>"Capture The Flag" <br /> sit amet consectetur adipisicing elit. Illum, vero quia. Nemo, quae eligendi delectus explicabo quam natus provident beatae corrupti reiciendis, adipisci facere voluptatibus ex! Quasi nesciunt iste, quod illum, commodi debitis omnis expedita tempore voluptate nulla, sunt ex quos necessitatibus dolor odio labore recusandae? Hic maxime sint sit iste voluptas omnis possimus explicabo reprehenderit eius, recusandae quisquam velit esse. Eum minus id reprehenderit, voluptates quia, labore magni nihil quasi assumenda aspernatur voluptate voluptatem placeat nemo et porro perferendis deserunt accusantium a eveniet, omnis esse. Nesciunt, dolor voluptatum? Laborum asperiores inventore doloribus exercitationem, culpa quod ipsam quam magnam perferendis?</p>
             <div className='Project-button'>
               <a href="https://github.com/wanchaick19/CTF-2567" target="_blank" rel="noopener noreferrer"><img src={GitPic} alt="GitHub" width={25} />GitHub</a>
             </div>
