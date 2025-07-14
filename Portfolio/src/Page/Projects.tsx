@@ -236,7 +236,7 @@ const Projects = () => {
               - React, TypeScript, Golang, Figma, Draw.io
             </p>
           </Modal>
-          <div className='side-project' onClick={showModalNetflim}>
+          <div className='side-project'>
             <Carousel autoplay arrows>
               <Image height={200} src={n1} alt="Picture Project" className='Project-picture' />
               <Image height={200} src={n2} alt="Picture Project" className='Project-picture' />
@@ -248,7 +248,7 @@ const Projects = () => {
               <Image height={200} src={n8} alt="Picture Project" className='Project-picture' />
             </Carousel>
             <h2>Netflim</h2>
-            <p className='Project-text-content'>
+            <p className='Project-text-content' onClick={showModalNetflim}>
               <b>Netflim Project</b><br />(System Analysis and Design Course)<br /><br />
               This was a team project for the System Analysis and Design course, developed by a group of 5 members. We collaborated to gather client requirements and translate them into a fully functional web-based movie streaming platform.<br />
               Each member was responsible for a specific subsystem, but I went beyond my assigned role to help complete key components and ensure the overall quality and usability of the platform.<br /><br />
