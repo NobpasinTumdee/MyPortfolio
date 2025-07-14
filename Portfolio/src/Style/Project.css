@@ -50,6 +50,10 @@
     box-shadow: #0000005b 0px 2px 4px 0px inset;
 }
 
+b {
+    color: var(--body-text-main-color);
+}
+
 .Project-button {
     display: flex;
     justify-content: flex-start;
