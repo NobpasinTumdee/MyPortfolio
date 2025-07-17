@@ -44,16 +44,14 @@ const Navbar = () => {
                 </div>
                 <div className='nav-menu'>
                     <Link to="/" className={`Link-button ${isActive('/') ? 'active' : ''}`}> Home </Link>
+                    <Link to="about" className={`Link-button ${isActive('/about') ? 'active' : ''}`}> About </Link>
+                    <Link to="projects" className={`Link-button ${isActive('/projects') ? 'active' : ''}`}> Projects </Link>
                     <div className='visible-to-desktop'>
-                        <Link to="about" className={`Link-button ${isActive('/about') ? 'active' : ''}`}> About </Link>
-                        <Link to="projects" className={`Link-button ${isActive('/projects') ? 'active' : ''}`}> Projects </Link>
-                    </div>
-                    <Link to="experience" className={`Link-button ${isActive('/experience') ? 'active' : ''}`}> Experience </Link>
-                    <div className='visible-to-desktop'>
+                        <Link to="experience" className={`Link-button ${isActive('/experience') ? 'active' : ''}`}> Experience </Link>
                         <Link to="skill" className={`Link-button ${isActive('/skill') ? 'active' : ''}`}> Skill </Link>
                         <Link to="art" className={`Link-button ${isActive('/art') ? 'active' : ''}`}> ART </Link>
+                        <Link to="contact" className={`Link-button ${isActive('/contact') ? 'active' : ''}`}> Contact </Link>
                     </div>
-                    <Link to="contact" className={`Link-button ${isActive('/contact') ? 'active' : ''}`}> Contact </Link>
                     <div className="theme-toggle-wrapper visible-to-desktop">
                         <label className="toggle-switch">
                             {/* // checkbox for theme web */}
@@ -79,10 +77,10 @@ const Navbar = () => {
                         <div className="dropdown-content">
                             <Link to="document" className={`Link-button ${isActive('/document') ? 'active' : ''}`}> Document </Link>
                             <div className='visible-to-mobile'>
-                                <Link to="about" className={`Link-button ${isActive('/about') ? 'active' : ''}`}> About </Link>
-                                <Link to="projects" className={`Link-button ${isActive('/projects') ? 'active' : ''}`}> Projects </Link>
+                                <Link to="experience" className={`Link-button ${isActive('/experience') ? 'active' : ''}`}> Experience </Link>
                                 <Link to="skill" className={`Link-button ${isActive('/skill') ? 'active' : ''}`}> Skill </Link>
                                 <Link to="art" className={`Link-button ${isActive('/art') ? 'active' : ''}`}> ART </Link>
+                                <Link to="contact" className={`Link-button ${isActive('/contact') ? 'active' : ''}`}> Contact </Link>
                             </div>
 
                             <div className="theme-toggle-wrapper visible-to-mobile">
