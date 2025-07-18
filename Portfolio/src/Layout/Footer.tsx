@@ -5,7 +5,7 @@ const Footer = () => {
     return (
         <div className='footer'>
             <h1>Thank You</h1>
-            <h2>SUPALAI !!! Please hire me 😝</h2>
+            <h2>Please hire me 😝</h2>
         </div>
     )
 }
