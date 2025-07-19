@@ -17,12 +17,15 @@ import python from "../assets/icon/python.png";
 import C_CH from "../assets/icon/C_CH.png";
 import C_Programming from "../assets/icon/C_Programming.png";
 import Java from "../assets/icon/Java.png";
+
+import MonkeyType from "../assets/Project/MonkeyType/Monkey.png"
 // import  from "../assets/icon/";
 import '../Style/Skill.css';
 
 import { useEffect } from "react";
 import Aos from 'aos';
 import 'aos/dist/aos.css';
+import { Image } from "antd";
 
 const Skill = () => {
   useEffect(() => {
@@ -136,6 +139,10 @@ const Skill = () => {
         <div className="Logo-img-group" data-aos="flip-left">
           <h3>premiere pro</h3>
         </div>
+      </div>
+      <h2 style={{ textAlign: 'center', marginBottom: '0' }}>Touch Typing</h2>
+      <div style={{margin: '40px 25%'}}>
+        <Image style={{width: '100%',borderRadius: '10px'}} src={MonkeyType} alt="wpm" />
       </div>
     </>
   )

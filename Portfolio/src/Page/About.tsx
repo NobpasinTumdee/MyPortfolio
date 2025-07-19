@@ -15,7 +15,7 @@ const About = () => {
     <>
       <div style={{ textAlign: 'center' }}>
         <h1 data-aos="fade-down">About Me</h1>
-        <p data-aos="fade-up" data-aos-duration="1100" style={{ opacity: '0.6' }}>Moo 10, Phan Dung Subdistrict, Kham Thale So District, Nakhon Ratchasima 30280, Thailand </p>
+        <p data-aos="fade-up" data-aos-duration="1100" style={{ opacity: '0.6' }}>Phan Dung Subdistrict, Kham Thale So District, Nakhon Ratchasima 30280, Thailand </p>
       </div>
       <div className='about-main'>
         <img data-aos="fade-right" data-aos-duration="1800" className='picture' src={me} alt="" />
@@ -43,7 +43,7 @@ const About = () => {
           </div>
           <div className='info1'>
             <p className='personal-info' data-aos="fade-up" data-aos-duration="1600"><span style={{ fontWeight: '600' }}>Place of Birth:</span> Nakhon Ratchasima</p>
-            <p className='personal-info' data-aos="fade-up" data-aos-duration="1600"><span style={{ fontWeight: '600' }}>Email:</span> porporpor579@gmail.com</p>
+            <p className='personal-info' data-aos="fade-up" data-aos-duration="1600"><span style={{ fontWeight: '600' }}>Email:</span> nobpasin579@gmail.com</p>
           </div>
           <div className='info1'>
             <p className='personal-info' data-aos="fade-up" data-aos-duration="1200"><span style={{ fontWeight: '600' }}>Phone:</span> 061-691-8493</p>
