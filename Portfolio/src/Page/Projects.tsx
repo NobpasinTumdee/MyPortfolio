@@ -53,6 +53,11 @@ import sh6 from '../assets/Project/LifeDaily/sh6.png';
 import ne1 from '../assets/Project/nextjs/ne1.png';
 import ne2 from '../assets/Project/nextjs/ne2.png';
 
+import F1 from '../assets/Project/FlashLoop/F1.png';
+import F2 from '../assets/Project/FlashLoop/F2.png';
+import F3 from '../assets/Project/FlashLoop/F3.png';
+import F4 from '../assets/Project/FlashLoop/F4.png';
+
 // https://chatgpt.com/share/6873eb57-b31c-8008-9864-d0c7a038010a คำอธิบายโปรเจกต์เวอร์ชันภาษาไทย
 const Projects = () => {
   useEffect(() => {
@@ -65,8 +70,8 @@ const Projects = () => {
   // Modal Honeypot
   const [isModalOpenHoneypot, setIsModalOpenHoney] = useState(false);
   const showModal = () => { setIsModalOpenHoney(true); };
-  const handleOk = () => { setIsModalOpenHoney(false); setIsModalOpenMall(false); setIsModalOpenNetflim(false); setIsModalOpenCTF(false); setIsModalOpenGorillaType(false); setIsModalOpenLifeDaily(false); setIsModalOpenNext(false); };
-  const handleCancel = () => { setIsModalOpenHoney(false); setIsModalOpenMall(false); setIsModalOpenNetflim(false); setIsModalOpenCTF(false); setIsModalOpenGorillaType(false); setIsModalOpenLifeDaily(false); setIsModalOpenNext(false); };
+  const handleOk = () => { setIsModalOpenHoney(false); setIsModalOpenMall(false); setIsModalOpenNetflim(false); setIsModalOpenCTF(false); setIsModalOpenGorillaType(false); setIsModalOpenLifeDaily(false); setIsModalOpenNext(false); setIsFlash(false); };
+  const handleCancel = () => { setIsModalOpenHoney(false); setIsModalOpenMall(false); setIsModalOpenNetflim(false); setIsModalOpenCTF(false); setIsModalOpenGorillaType(false); setIsModalOpenLifeDaily(false); setIsModalOpenNext(false); setIsFlash(false); };
 
   // Modal Shopping Mall
   const [isModalOpenMall, setIsModalOpenMall] = useState(false);
@@ -91,6 +96,10 @@ const Projects = () => {
   // Nextjs
   const [isModalOpenNext, setIsModalOpenNext] = useState(false);
   const showModalNext = () => { setIsModalOpenNext(true); };
+
+  // Nextjs
+  const [isModalFlash, setIsFlash] = useState(false);
+  const showFlash = () => { setIsFlash(true); };
 
   return (
     <>
@@ -522,6 +531,57 @@ const Projects = () => {
             </p>
             <div className='Project-button'>
               <a href="https://github.com/NobpasinTumdee/next-workshop" target="_blank" rel="noopener noreferrer"><img src={GitPic} alt="GitHub" width={25} />GitHub</a>
+            </div>
+
+          </div>
+
+
+
+
+          {/* Flash Loop */}
+          <Modal
+            title="Flash Loop"
+            closable={{ 'aria-label': 'Custom Close Button' }}
+            open={isModalFlash}
+            onOk={handleOk}
+            onCancel={handleCancel}
+          >
+            <p>
+              <b>FlashLoop</b><br />Responsive Flashcard Web App for Vocabulary Practice<br /><br />
+              FlashLoop is a responsive flashcard-style web application designed to help users practice and memorize vocabulary effectively. Inspired by traditional flashcards, it provides a minimal and intuitive interface that works seamlessly across all devices — from desktops to smartphones.<br />
+              The app is fully deployed and available for immediate use via GitHub Pages without any installation required.<br /><br />
+              <b>Key Features</b><br />
+              - Simulates traditional flashcard-based vocabulary learning<br />
+              - Clean and easy-to-use UI<br />
+              - Fully responsive and mobile-friendly design<br />
+              - Instantly accessible via GitHub Pages<br /><br />
+              <b>Technologies Used</b><br />
+              React, TypeScript, GitHub Pages
+            </p>
+          </Modal>
+          <div className='side-project'>
+            <Carousel autoplay arrows>
+              <Image height={200} src={F1} alt="Picture Project" className='Project-picture' />
+              <Image height={200} src={F2} alt="Picture Project" className='Project-picture' />
+              <Image height={200} src={F3} alt="Picture Project" className='Project-picture' />
+              <Image height={200} src={F4} alt="Picture Project" className='Project-picture' />
+            </Carousel>
+            <h2>Next Workshop To-Do List</h2>
+            <p className='Project-text-content' onClick={showFlash}>
+              <b>FlashLoop</b><br />Responsive Flashcard Web App for Vocabulary Practice<br /><br />
+              FlashLoop is a responsive flashcard-style web application designed to help users practice and memorize vocabulary effectively. Inspired by traditional flashcards, it provides a minimal and intuitive interface that works seamlessly across all devices — from desktops to smartphones.<br />
+              The app is fully deployed and available for immediate use via GitHub Pages without any installation required.<br /><br />
+              <b>Key Features</b><br />
+              - Simulates traditional flashcard-based vocabulary learning<br />
+              - Clean and easy-to-use UI<br />
+              - Fully responsive and mobile-friendly design<br />
+              - Instantly accessible via GitHub Pages<br /><br />
+              <b>Technologies Used</b><br />
+              React, TypeScript, GitHub Pages
+            </p>
+            <div className='Project-button'>
+              <a href="https://github.com/NobpasinTumdee/FlashLoop" target="_blank" rel="noopener noreferrer"><img src={GitPic} alt="GitHub" width={25} />GitHub</a>
+              <a href="https://nobpasintumdee.github.io/FlashLoop/#/home" target="_blank" rel="noopener noreferrer">Web page</a>
             </div>
 
           </div>

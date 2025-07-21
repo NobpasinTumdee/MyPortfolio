@@ -46,6 +46,10 @@ const Skill = () => {
           <h3>React</h3>
         </div>
         <div className="Logo-img-group" data-aos="flip-left">
+          <img className="Logo-img" src="https://img.icons8.com/color/512/nextjs.png" alt="nextjs" />
+          <h3>NextJS</h3>
+        </div>
+        <div className="Logo-img-group" data-aos="flip-left">
           <img className="Logo-img" src={html} alt="logo" />
           <h3>HTML</h3>
         </div>
@@ -64,6 +68,10 @@ const Skill = () => {
         <div className="Logo-img-group" data-aos="flip-left">
           <img className="Logo-img" src={bootstrap} alt="logo" />
           <h3>Bootstrap</h3>
+        </div>
+        <div className="Logo-img-group" data-aos="flip-left">
+          <img className="Logo-img" src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/flask-logo-icon.png" alt="logo" />
+          <h3>Flask</h3>
         </div>
       </div>
 

@@ -48,7 +48,7 @@ const Home = () => {
           <div className='Explore-cv' data-aos="fade-up" data-aos-duration="1000">
             <p className='Quick-stats'>4 Year in Suranaree University</p>
             <p className='Quick-stats'>React Main Framework</p>
-            <p className='Quick-stats'>3 Projects in University</p>
+            <p className='Quick-stats'>8+ Projects in University</p>
             <p className='Quick-stats'>GPA 3.51/4.00</p>
           </div>
         </div>
