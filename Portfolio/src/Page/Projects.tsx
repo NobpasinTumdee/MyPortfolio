@@ -58,6 +58,9 @@ import F2 from '../assets/Project/FlashLoop/F2.png';
 import F3 from '../assets/Project/FlashLoop/F3.png';
 import F4 from '../assets/Project/FlashLoop/F4.png';
 
+import w1 from '../assets/Project/websocket/w1.png';
+import w2 from '../assets/Project/websocket/w2.png';
+
 // https://chatgpt.com/share/6873eb57-b31c-8008-9864-d0c7a038010a คำอธิบายโปรเจกต์เวอร์ชันภาษาไทย
 const Projects = () => {
   useEffect(() => {
@@ -70,8 +73,8 @@ const Projects = () => {
   // Modal Honeypot
   const [isModalOpenHoneypot, setIsModalOpenHoney] = useState(false);
   const showModal = () => { setIsModalOpenHoney(true); };
-  const handleOk = () => { setIsModalOpenHoney(false); setIsModalOpenMall(false); setIsModalOpenNetflim(false); setIsModalOpenCTF(false); setIsModalOpenGorillaType(false); setIsModalOpenLifeDaily(false); setIsModalOpenNext(false); setIsFlash(false); };
-  const handleCancel = () => { setIsModalOpenHoney(false); setIsModalOpenMall(false); setIsModalOpenNetflim(false); setIsModalOpenCTF(false); setIsModalOpenGorillaType(false); setIsModalOpenLifeDaily(false); setIsModalOpenNext(false); setIsFlash(false); };
+  const handleOk = () => { setIsModalOpenHoney(false); setIsModalOpenMall(false); setIsModalOpenNetflim(false); setIsModalOpenCTF(false); setIsModalOpenGorillaType(false); setIsModalOpenLifeDaily(false); setIsModalOpenNext(false); setIsFlash(false); setIsSocket(false);};
+  const handleCancel = () => { setIsModalOpenHoney(false); setIsModalOpenMall(false); setIsModalOpenNetflim(false); setIsModalOpenCTF(false); setIsModalOpenGorillaType(false); setIsModalOpenLifeDaily(false); setIsModalOpenNext(false); setIsFlash(false); setIsSocket(false);};
 
   // Modal Shopping Mall
   const [isModalOpenMall, setIsModalOpenMall] = useState(false);
@@ -97,9 +100,13 @@ const Projects = () => {
   const [isModalOpenNext, setIsModalOpenNext] = useState(false);
   const showModalNext = () => { setIsModalOpenNext(true); };
 
-  // Nextjs
+  // flash loop
   const [isModalFlash, setIsFlash] = useState(false);
   const showFlash = () => { setIsFlash(true); };
+
+  // web socket
+  const [isSocket, setIsSocket] = useState(false);
+  const showSocket = () => { setIsSocket(true); };
 
   return (
     <>
@@ -133,7 +140,7 @@ const Projects = () => {
       <div className="Project">
         <div className="Project-container" data-aos="fade-up">
 
-          <div className='side-project'>
+          <div className='side-project highlight'>
             <Carousel autoplay arrows>
               <Image height={200} src={h1} alt="Picture Project" className='Project-picture' />
               <Image height={200} src={h2} alt="Picture Project" className='Project-picture' />
@@ -200,7 +207,7 @@ const Projects = () => {
               - React, TypeScript, Golang, Ant Design, SQLite, Figma, Draw.io, GitHub
             </p>
           </Modal>
-          <div className='side-project'>
+          <div className='side-project highlight'>
             <Carousel autoplay arrows>
               <Image height={200} src={s1} alt="Picture Project" className='Project-picture' />
               <Image height={200} src={s3} alt="Picture Project" className='Project-picture' />
@@ -584,6 +591,61 @@ const Projects = () => {
               <a href="https://nobpasintumdee.github.io/FlashLoop/#/home" target="_blank" rel="noopener noreferrer">Web page</a>
             </div>
 
+          </div>
+
+
+          {/* web socket */}
+          <Modal
+            title="Web chat socket"
+            closable={{ 'aria-label': 'Custom Close Button' }}
+            open={isSocket}
+            onOk={handleOk}
+            onCancel={handleCancel}
+          >
+            <p>
+              <b> WebSocket Chat</b> – Real-Time Chat Application with WebSocket and Database Integration <br /><br />
+              This project is a hands-on implementation of a real-time chat system using WebSocket technology. It demonstrates how to build a full-stack chat app where users can exchange messages instantly and those messages are persisted in a database for future access.<br /><br />
+              <b>Through this project, I gained hands-on experience in:</b><br />
+              - Handling WebSocket connections<br />
+              - Broadcasting messages to multiple clients<br />
+              - Saving and retrieving chat data using Prisma and SQLite<br />
+              - Managing both frontend and backend communication efficiently<br /><br />
+              <b>This project serves as a foundation for future work involving real-time communication systems, such as live support, collaborative platforms, or gaming chat features.</b><br /><br />
+              <b>Key Features</b><br />
+              - Real-time messaging with WebSocket<br />
+              - Message history stored in a database<br />
+              - Multi-user connection handling<br />
+              - Full stack learning experience (React + Node.js)<br /><br />
+              <b>Tech Stack</b><br />
+              - React, Node.js, Express, Prisma, SQLite, WebSocket
+            </p>
+          </Modal>
+          <div className='side-project'>
+            <Carousel autoplay arrows>
+              <Image height={200} src={w1} alt="Picture Project" className='Project-picture' />
+              <Image height={200} src={w2} alt="Picture Project" className='Project-picture' />
+            </Carousel>
+            <h2>Web chat socket</h2>
+            <p className='Project-text-content' onClick={showSocket}>
+              <b> WebSocket Chat</b> – Real-Time Chat Application with WebSocket and Database Integration <br /><br />
+              This project is a hands-on implementation of a real-time chat system using WebSocket technology. It demonstrates how to build a full-stack chat app where users can exchange messages instantly and those messages are persisted in a database for future access.<br /><br />
+              <b>Through this project, I gained hands-on experience in:</b><br />
+              - Handling WebSocket connections<br />
+              - Broadcasting messages to multiple clients<br />
+              - Saving and retrieving chat data using Prisma and SQLite<br />
+              - Managing both frontend and backend communication efficiently<br /><br />
+              This project serves as a foundation for future work involving real-time communication systems, such as live support, collaborative platforms, or gaming chat features.<br /><br />
+              <b>Key Features</b><br />
+              - Real-time messaging with WebSocket<br />
+              - Message history stored in a database<br />
+              - Multi-user connection handling<br />
+              - Full stack learning experience (React + Node.js)<br /><br />
+              <b>Tech Stack</b><br />
+              - React, Node.js, Express, Prisma, SQLite, WebSocket
+            </p>
+            <div className='Project-button'>
+              <a href="https://github.com/NobpasinTumdee/WebSocket" target="_blank" rel="noopener noreferrer"><img src={GitPic} alt="GitHub" width={25} />GitHub</a>
+            </div>
           </div>
 
 

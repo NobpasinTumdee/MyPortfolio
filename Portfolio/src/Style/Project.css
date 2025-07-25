@@ -27,6 +27,17 @@
     padding: 20px;
     transition: transform 0.2s ease-in-out;
 }
+.side-project.highlight{
+    /* box-shadow: 0 1px 9px #fcf0bee0; */
+    border: 3px solid #e7d692e0;
+    animation: highlight-project 2s ease-in-out infinite;
+}
+
+@keyframes highlight-project {
+    0%{}
+    50%{ border: 3px solid transparent;}
+    100%{}
+}
 
 .side-project:hover {
     transform: scale(1.03);
@@ -48,6 +59,7 @@
     overflow: scroll;
     border-radius: 5px;
     box-shadow: #0000005b 0px 2px 4px 0px inset;
+    cursor: pointer;
 }
 
 b {
