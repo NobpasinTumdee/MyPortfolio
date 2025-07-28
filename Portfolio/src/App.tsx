@@ -1,4 +1,4 @@
-import { createHashRouter } from 'react-router-dom'
+import { createHashRouter, Link } from 'react-router-dom'
 import { RouterProvider } from 'react-router-dom';
 import Home from './Page/Home';
 import About from './Page/About';
@@ -14,7 +14,7 @@ const router = createHashRouter([
   {
     path: "/",
     element: <Rootlayout />,
-    errorElement: <h1>Not found this page...</h1>,
+    errorElement: <div style={{textAlign: 'center'}}><h1>Not found this page...</h1><h2>return to <Link to={'/'}>Home</Link></h2></div>,
     children: [
       { index: true, element: <Home /> },
       { path: "about", element: <About /> },
