@@ -573,7 +573,7 @@ const Projects = () => {
               <Image height={200} src={F3} alt="Picture Project" className='Project-picture' />
               <Image height={200} src={F4} alt="Picture Project" className='Project-picture' />
             </Carousel>
-            <h2>Next Workshop To-Do List</h2>
+            <h2>Flash Loop</h2>
             <p className='Project-text-content' onClick={showFlash}>
               <b>FlashLoop</b><br />Responsive Flashcard Web App for Vocabulary Practice<br /><br />
               FlashLoop is a responsive flashcard-style web application designed to help users practice and memorize vocabulary effectively. Inspired by traditional flashcards, it provides a minimal and intuitive interface that works seamlessly across all devices — from desktops to smartphones.<br />
